@@ -1,0 +1,1 @@
+cd app && west build -p -b nice_nano -- -DSHIELD=boardsource3x4 -DZMK_CONFIG="D:\Projects\zmk-config\config" && cd ..
