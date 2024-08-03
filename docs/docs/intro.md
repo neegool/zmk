@@ -22,15 +22,17 @@ ZMK is currently missing some features found in other popular firmware. This tab
 | User Configuration Repositories                                                                                                    | ✅  |           |     |
 | Split Keyboard Support                                                                                                             | ✅  |    ✅     | ✅  |
 | [Keymaps and Layers](behaviors/layers.md)                                                                                          | ✅  |    ✅     | ✅  |
-| [Hold-Tap](behaviors/hold-tap.md) (which includes [Mod-Tap](behaviors/mod-tap.md) and [Layer-Tap](behaviors/layers.md/#layer-tap)) | ✅  |    ✅     | ✅  |
+| [Hold-Tap](behaviors/hold-tap.mdx) (which includes [Mod-Tap](behaviors/mod-tap.md) and [Layer-Tap](behaviors/layers.md#layer-tap)) | ✅  |    ✅     | ✅  |
+| [Tap-Dance](behaviors/tap-dance.mdx)                                                                                               | ✅  |  ✅[^2]   | ✅  |
 | [Keyboard Codes](codes/index.mdx#keyboard)                                                                                         | ✅  |    ✅     | ✅  |
 | [Media](codes/index.mdx#media-controls) & [Consumer](codes/index.mdx#consumer-controls) Codes                                      | ✅  |    ✅     | ✅  |
-| [Encoders](features/encoders.md)[^1]                                                                                               | ✅  |    ✅     | ✅  |
-| [Display Support](features/displays.md)[^2]                                                                                        | 🚧  |    🚧     | ✅  |
+| [Encoders](features/encoders.md)                                                                                                   | ✅  |    ✅     | ✅  |
+| [Display Support](features/displays.md)[^1]                                                                                        | 🚧  |    🚧     | ✅  |
 | [RGB Underglow](features/underglow.md)                                                                                             | ✅  |    ✅     | ✅  |
+| [Backlight](features/backlight.mdx)                                                                                                | ✅  |    ✅     | ✅  |
 | One Shot Keys                                                                                                                      | ✅  |    ✅     | ✅  |
 | [Combo Keys](features/combos.md)                                                                                                   | ✅  |           | ✅  |
-| Macros                                                                                                                             | 🚧  |    ✅     | ✅  |
+| [Macros](behaviors/macros.md)                                                                                                      | ✅  |    ✅     | ✅  |
 | Mouse Keys                                                                                                                         | 🚧  |    ✅     | ✅  |
 | Low Active Power Usage                                                                                                             | ✅  |           |     |
 | Low Power Sleep States                                                                                                             | ✅  |    ✅     |     |
@@ -39,12 +41,12 @@ ZMK is currently missing some features found in other popular firmware. This tab
 | Shell over BLE                                                                                                                     | 💡  |           |     |
 | Realtime Keymap Updating                                                                                                           | 💡  |           | ✅  |
 | AVR/8 Bit                                                                                                                          |     |           | ✅  |
-| [Wide Range of ARM Chips Supported](https://docs.zephyrproject.org/latest/boards/index.html)                                       | ✅  |           |     |
+| [Wide Range of ARM Chips Supported](https://docs.zephyrproject.org/3.5.0/boards/index.html)                                        | ✅  |           |     |
 
-[^2]: Encoders are not currently supported on peripheral side splits.
+[^2]: Tap-Dances are limited to single and double-tap on BlueMicro
 [^1]: OLEDs are currently proof of concept in ZMK.
 
-## Code Of Conduct
+## Code of Conduct
 
 Please note that this project is released with a
 [Contributor Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).
